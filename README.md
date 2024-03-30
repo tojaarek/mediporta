@@ -1,8 +1,43 @@
-# React + Vite
+## Table of contents
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Setup](#setup)
 
-Currently, two official plugins are available:
+## General info
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React task for Mediporta
+
+## Technologies
+
+Project is created with:
+
+- axios 1.6.8
+- react 18.2.0
+- react-hot-toast 2.4.1
+- react-loader-spinner 6.1.6
+- react-redux 9.1.0
+- reduxjs/toolkit 2.2.2
+- mui/material 5.15.14
+- storybook 8.0.5
+- vite 5.2.0
+
+## Setup
+
+To run this project, install dependencies by using:
+
+```
+$ npm ci
+```
+
+To run live vite project
+
+```
+$ npm start
+```
+
+To run storybook
+
+```
+$ npm run storybook
+```

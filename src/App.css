@@ -1,6 +1,7 @@
 #root {
   margin: 0 auto;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  overflow: hidden;
 }
 
 html {
@@ -35,4 +36,11 @@ ul {
 
 li {
   padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
